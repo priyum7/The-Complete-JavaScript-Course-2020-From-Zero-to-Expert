@@ -24,7 +24,7 @@ let johnMass = window.prompt("Enter John's Mass");
 let johnHeight = window.prompt("Enter John's Height");
 
 let markBMI = markMass / (markHeight ** 2);
-let johnBMI = markMass / (markHeight ** 2);
+let johnBMI = johnMass / (johnHeight ** 2);
 
 let markHigherBMI;
 
